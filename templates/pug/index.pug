@@ -1,0 +1,29 @@
+doctype html
+
+html(lang='en-US')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width,initial-scale=1')
+    title Pug/Stylus/Bulma/Parcel
+    link(rel='stylesheet' href='css/vendor/bulma.css')
+    script(defer src='js/vendor/fontawesome.js')
+    link(rel='stylesheet' href='css/styles.css')
+    script(src='js/main.js')
+
+  body
+    section.section
+      #primary-title.container.title Pug, Stylus, Bulma and Parcel working together.
+    section.section
+      #secondary-title.container.subtitle Examine the source code to understand the role of each technology.
+    section.section
+      p
+        strong For more details:
+      ul
+        li
+          a(href='https://pugjs.org/' target='_blank') Pug - Dynamic HTML Generation Tool
+        li
+          a(href='http://stylus-lang.com/' target='_blank') Stylus - Dynamic CSS Generation Tool
+        li
+          a(href='https://bulma.io/' target='_blank') Bulma - CSS Framework
+        li
+          a(href='https://parceljs.org/' target='_blank') Parcel - Web Application Bundler

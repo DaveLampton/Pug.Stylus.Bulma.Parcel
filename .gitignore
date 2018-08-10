@@ -1,0 +1,17 @@
+.cache/
+dist/
+
+webroot/*
+
+!webroot/css/
+webroot/css/*
+!webroot/css/vendor/
+webroot/css/vendor/*
+!webroot/css/vendor/*.css
+
+!webroot/js/
+webroot/js/*
+!webroot/js/*.js
+!webroot/js/vendor/
+webroot/js/vendor/*
+!webroot/js/vendor/*.js
