@@ -13,15 +13,16 @@ html(lang='en-US')
     link(rel='stylesheet' href='css/styles.css')
     // your custom JavaScript files live in the js/ directory 
     script(src='js/main.js')
-    // Parcel packages and delivers the required assets only when they are needed
+    // Parcel intelligently packages and then delivers required assets only when needed
 
   body
     section.section
-      // section, container, title and subtitle are all Bulma classes. 
+      // 'section', 'container', 'title' and 'subtitle' are all Bulma classes:
       #primary-title.container.title Pug, Stylus, Bulma and Parcel working together.
-    section.section
-      #secondary-title.container.subtitle Examine the source code to understand how to use each technology.
-    section.section
+      br
+      #secondary-title.container.subtitle Examine the source code to understand how to use each tool.
+      br
+      hr
       p
         strong For more details:
         br
@@ -29,17 +30,17 @@ html(lang='en-US')
       ul
         li
           strong
-            a(href='https://pugjs.org/' target='_blank') Pug 
+            a(href='https://pugjs.org/' target='_blank') Pug
           span - dynamically generates clean, correct and consistent HTML using a simple templating language
         li
           strong
-            a(href='http://stylus-lang.com/' target='_blank') Stylus 
+            a(href='http://stylus-lang.com/' target='_blank') Stylus
           span - dynamically generates clean, correct and consistent CSS using a simple templating language
         li
           strong
-            a(href='https://bulma.io/' target='_blank') Bulma 
+            a(href='https://bulma.io/' target='_blank') Bulma
           span - Full-featured CSS Framework for manipulating website styles, structure and components
         li
           strong
-            a(href='https://parceljs.org/' target='_blank') Parcel 
+            a(href='https://parceljs.org/' target='_blank') Parcel
           span - Zero-configuration Web application bundler intelligently packages and delivers required assets as needed
