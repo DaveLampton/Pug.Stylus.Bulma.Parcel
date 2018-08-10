@@ -1,29 +1,45 @@
 doctype html
-
+// Pug dynamically generates clean, correct and consistent HTML using a simple templating language.
 html(lang='en-US')
   head
     meta(charset='utf-8')
     meta(name='viewport' content='width=device-width,initial-scale=1')
     title Pug/Stylus/Bulma/Parcel
+    // Bulma is a full-featured CSS framework
     link(rel='stylesheet' href='css/vendor/bulma.css')
+    // FontAwesome is optionally used by Bulma 
     script(defer src='js/vendor/fontawesome.js')
+    // CSS files live in the css/ directory. Create them with Stylus templates. 
     link(rel='stylesheet' href='css/styles.css')
+    // your custom JavaScript files live in the js/ directory 
     script(src='js/main.js')
+    // Parcel packages and delivers the required assets only when they are needed
 
   body
     section.section
+      // section, container, title and subtitle are all Bulma classes. 
       #primary-title.container.title Pug, Stylus, Bulma and Parcel working together.
     section.section
-      #secondary-title.container.subtitle Examine the source code to understand the role of each technology.
+      #secondary-title.container.subtitle Examine the source code to understand how to use each technology.
     section.section
       p
         strong For more details:
+        br
+        br
       ul
         li
-          a(href='https://pugjs.org/' target='_blank') Pug - Dynamic HTML Generation Tool
+          strong
+            a(href='https://pugjs.org/' target='_blank') Pug 
+          span - dynamically generates clean, correct and consistent HTML using a simple templating language
         li
-          a(href='http://stylus-lang.com/' target='_blank') Stylus - Dynamic CSS Generation Tool
+          strong
+            a(href='http://stylus-lang.com/' target='_blank') Stylus 
+          span - dynamically generates clean, correct and consistent CSS using a simple templating language
         li
-          a(href='https://bulma.io/' target='_blank') Bulma - CSS Framework
+          strong
+            a(href='https://bulma.io/' target='_blank') Bulma 
+          span - Full-featured CSS Framework for manipulating website styles, structure and components
         li
-          a(href='https://parceljs.org/' target='_blank') Parcel - Web Application Bundler
+          strong
+            a(href='https://parceljs.org/' target='_blank') Parcel 
+          span - Zero-configuration Web application bundler intelligently packages and delivers required assets as needed
