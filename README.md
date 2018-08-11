@@ -1,6 +1,6 @@
 ## Website Starter Pack using Pug, Stylus, Bulma and Parcel
 
-This barebones Node.js-based project template demonstrates the use of Pug, Stylus, Bulma and Parcel together to develop a website. It can be used as a starting point for new projects.  
+This barebones website project template demonstrates using the Node.js-based development tools Pug, Stylus and Parcel together with the Bulma CSS framework to develop either a basic static website, or as a starting point for a new Web application project. 
 
 Pug, Stylus, Bulma and Parcel are NOT runtime tools. They are not intended for real-time manipulation of source files on a server, nor can they manipulate a browser's DOM at runtime. These tools are used to make a developer's job of creating a Web site/application easier and less error-prone.
 
