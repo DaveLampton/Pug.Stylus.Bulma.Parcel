@@ -1,0 +1,78 @@
+{
+  "_from": "your.domain.com",
+  "_id": "your.domain.com@0.0.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "your.domain.com",
+    "name": "your.domain.com",
+    "escapedName": "your.domain.com",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "",
+  "_shasum": "",
+  "_spec": "Your website project",
+  "_where": "",
+  "author": {
+    "name": "Your name (Take some credit. You deserve it.)",
+    "email": "your.email@domain.com",
+    "url": "https://your.domain.com/yourpage"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "The coolest website ever, located at https://your.domain.com/",
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "bulma": "^0.7.1",
+    "coffeescript": "^2.3.1",
+    "parcel-bundler": "^1.9.7",
+    "postcss-cli": "^6.0.0",
+    "pug": "^2.0.3",
+    "pug-cli": "^1.0.0-alpha6",
+    "stylus": "^0.54.5"
+  },
+  "keywords": [
+    "babel",
+    "bulma",
+    "coffeescript",
+    "parcel",
+    "pug",
+    "stylus"
+  ],
+  "license": "TBD",
+  "name": "your.domain.com",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/your.clone.or.fork"
+  },
+  "scripts": {
+    "css-build": "stylus templates/css/ --out webroot/css/",
+    "css-deploy": "npm run css-build && npm run css-postcss",
+    "css-postcss": "postcss --use autoprefixer --output webroot/css/ webroot/css/",
+    "css-watch": "stylus -w templates/css/ --out webroot/css/",
+    "deploy": "npm run css-deploy && npm run js-build",
+    "html-build": "pug -P templates/ --out webroot/",
+    "html-watch": "pug -w -P templates/ --out webroot/",
+    "js-build": "coffee --compile --transpile --no-header --output webroot/js/ templates/js/",
+    "js-watch": "coffee --compile --transpile --no-header --watch --output webroot/js/ templates/js/",
+    "parcel-build": "parcel build --public-url https://your.domain.com/",
+    "parcel-watch": "parcel webroot/index.html",
+    "readme": "echo 'Be sure to fill-in your REAL domain name for the `public-url` option in the `parcel-build` call above.'",
+    "watch": "watch"
+  },
+  "version": "0.0.1"
+}
