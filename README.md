@@ -1,6 +1,8 @@
 # Website.Starter.2019
 ## Modern Tools. Automated Workflow. Live Updates. More time for you!
 
+### (Note: currently the automation scripts are setup for development on a Windows machine. Linux will be supported soon!)
+
 **Website.Starter.2019 combines the best Web development tools available today, automates them, and then keeps them out of your way! It facilitates a simplified workflow and makes an excellent starting point for any new Web project.**
 
 You write your code using Pug, Stylus and CoffeeScript, which each provide a clean, simple and powerful syntax which is then compiled into modern, standards-compliant HTML, CSS and JavaScript, respectively, along with their related sourcemaps. Then they are transpiled into the most compatible formats so that they'll run in the largest number of browsers, and they are minified and compressed. Then the bundler intelligently splits code up into packages that are optimized to be "lazy-loaded" as needed, minimizing traffic and maximizing speed. The bundler also gives files unique, versioned names so that they will automatically bust your web caches.
