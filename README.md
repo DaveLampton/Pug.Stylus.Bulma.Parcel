@@ -1,13 +1,15 @@
 # Website.Starter.2019
-## Modern Tools. Automated Workflow. Live Updates. More time for you!
+### Modern Tools. Automated Workflow. Live updates. Optimized code. Less fiddling around.
 
-### (Note: currently the automation scripts are setup for development on a Windows machine. Linux will be supported soon!)
+(Note: currently the automation scripts are written for developing on a Windows machine, but the Linux version will be released soon.)
 
-**Website.Starter.2019 combines the best Web development tools available today, automates them, and then keeps them out of your way! It facilitates a simplified workflow and makes an excellent starting point for any new Web project.**
+**Website.Starter.2019** is intended to serve as a starting point for building ANY new Website project, from simple static pages, to sophisticated Web applications. It pulls together the best (i.e. _my_ favorite) WebDev code generators/compilers (Pug for HTML, Stylus for CSS, and CoffeeScript for JavaScript), then it fully automates those tools, and it keeps them out of your way! By default, it does not use or depend on any frontend framework, nor on any backend server technology, yet it can be easily adapted to work with any frontend/backend technologies you choose to add to your project.
 
-You write your code using Pug, Stylus and CoffeeScript, which each provide a clean, simple and powerful syntax which is then compiled into modern, standards-compliant HTML, CSS and JavaScript, respectively, along with their related sourcemaps. Then they are transpiled into the most compatible formats so that they'll run in the largest number of browsers, and they are minified and compressed. Then the bundler intelligently splits code up into packages that are optimized to be "lazy-loaded" as needed, minimizing traffic and maximizing speed. The bundler also gives files unique, versioned names so that they will automatically bust your web caches.
+Pug, Stylus and CoffeeScript each use a clean, developer-friendly syntax that is actually more flexible and more capable than the languages they compile to. The compilers generate modern, standards-compliant HTML, CSS and JavaScript, along with their related sourcemaps. They are transpiled to use older language variants so that they'll be compatible with as many different browsers as possible, then they are minified and compressed. Lastly, the bundler gives the files unique, versioned names so that they will automatically bust web caches, and it intelligently splits the code into packages that are optimized to be "lazy-loaded", as needed.
 
-Website.Starter.2019 is a blank canvas for you to build upon. It minimizes developer efforts and human errors, while it maximizes the amount of work delegated to our machines. Finally, Web developers can spend more time leveraging their creativity, solving the higher-level problems and less time fiddling with the mundane details.  You're welcome.  ;^)
+By using **Website.Starter.2019**, developer efforts, human errors and network usage are all minimized, while network transfer speeds and the amount of work delegated to our computers is maximized.
+
+Finally... Web developers can spend more time leveraging their creativity to solve the higher-level problems, rather than wasting their time fiddling with mundane details.  You're welcome.  ;^)
 
 ### Comes pre-configured with: Pug, Stylus, Bulma, PostCSS, CoffeeScript, Babel and Parcel
 
