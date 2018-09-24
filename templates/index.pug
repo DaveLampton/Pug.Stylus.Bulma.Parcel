@@ -1,23 +1,26 @@
 doctype html
 
-html(lang="en" itemscope itemtype="https://schema.org/WebPage")
+html(lang='en' itemscope itemtype='https://schema.org/WebPage')
 
   head
-    meta(charset="UTF-8")
-    meta(name="viewport" content="width=device-width,initial-scale=1")
+    //- This type of Pug comment does not show up in the output HTML.
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width,initial-scale=1')
     title Your Awesome Website
-    //- FontAwesome is only required if using Bulma's icons
-    //-script(defer src="js/vendor/fontawesome.js")
-    link(rel="stylesheet" href="css/vendor/bulma.css")
-    link(rel="stylesheet" href="css/styles.css")
-    //- debug.css highlights structural elements on the page
-    //-link(id="debug" rel="stylesheet" href="css/vendor/debug.css")
+    //- FontAwesome is only required if using Bulma's icons:
+    //- script(defer src='js/vendor/fontawesome.js')
+    //- Bulma is optional. Feel free to remove if you want:
+    link(rel='stylesheet' href='css/vendor/bulma.css')
+    //- Your custom styles and includes to other CSS files can go in here:
+    link(rel='stylesheet' href='css/styles.css')
+    //- Uncomment during development to highlight the page's structural elements:
+    //- link(id='debug' rel='stylesheet' href='css/vendor/debug.css')
 
   body
     noscript
     section.hero
       .hero-body
-        p#my-heading.title Your Empty Website
+        p#my-heading.title Your New Empty Website
         p Time to get coding!
 
-    script(src="js/main.js")
+    script(src='js/main.js')
