@@ -1,25 +1,26 @@
 # .gitignore - specifies files & directories to be ignored by Git
 
-.DS_Store
-
-# npm
-npm-debug.log
+# npm/yarn packages
 node_modules/
 
 # parcel-bundler
 .cache/
 dist/
 
-# JetBrains IDEs
+# JetBrains project files
 .idea/
 
-# temp
+# log files
+*.log
+
+# temp build files
 _javascript/
 _sass/
 _gh_pages/
 _site/
 
 # other
+.DS_Store
 sync.ffs_db
 
 # ------------------------------------------------------------------------------

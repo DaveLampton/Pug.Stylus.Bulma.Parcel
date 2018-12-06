@@ -46,18 +46,25 @@
     "stylus": "^0.54.5"
   },
   "keywords": [
+    "2019",
     "babel",
     "bulma",
     "coffeescript",
+    "css",
+    "html",
+    "javascript",
+    "kit",
     "parcel",
     "pug",
-    "stylus"
+    "starter",
+    "stylus",
+    "website"
   ],
   "license": "TBD",
   "name": "your.domain.com",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/your.clone.or.fork"
+    "type": "git",
+    "url": "https://github.com/your.clone.or.fork"
   },
   "scripts": {
     "css-build": "stylus templates/css/ --out webroot/css/",

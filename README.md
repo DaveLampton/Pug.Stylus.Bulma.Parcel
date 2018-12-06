@@ -24,9 +24,9 @@ The automated toolset stays out of your way while you code. When it detects any 
 * **[Babel](https://babeljs.io/)** - Transpiles various JavaScript versions (ES6/ES7/JSX/etc.) into a single codebase that's cross-browser compatible.
 * **[Parcel](https://parceljs.org/)** - Zero-configuration bundler intelligently splits code and assets into packages optimized for "lazy-loading".
 
-To setup this project, make sure **[Node.js](https://nodejs.org/)** and **[npm](https://www.npmjs.com/)** are already installed, then open a terminal (cmd in Windows) change to this project's root directory and run
+To setup this project, make sure **[Node.js](https://nodejs.org/)** and **[yarn](https://yarnpkg.com/)** are already installed, then open a terminal (cmd in Windows) change to this project's root directory and run
 
-`npm install`
+`yarn install`
 
 which downloads and installs all dependencies. To start the toolset, simply run
 
