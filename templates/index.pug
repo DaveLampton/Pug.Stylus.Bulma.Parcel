@@ -3,17 +3,29 @@ doctype html
 html(lang='en' itemscope itemtype='https://schema.org/WebPage')
 
   head
-    //- This type of Pug comment does not show up in the output HTML.
+    //- <--This type of Pug comment does not show up in the output HTML.
     meta(charset='UTF-8')
     meta(name='viewport' content='width=device-width,initial-scale=1')
     title Your Awesome Website
-    //- If using Bulma's icons, include FontAwesome before Bulma:
+    //- To serve a favicon.ico, un-comment the next two lines & point to your file:
+    //- link(rel='shortcut icon' href='/img/icons/favicon.ico' type='image/x-icon')
+    //- link(rel='icon' href='/img/icons/favicon.ico' type='image/x-icon')
+    //- If using Bulma's icons, load FontAwesome before linking Bulma:
     //- script(defer src='js/vendor/fontawesome.js')
     //- Bulma is optional. Remove or comment it if you don't want to use it:
     link(rel='stylesheet' href='css/vendor/bulma.css')
     //- Your custom styles and "@import' statements can be put into styles.css:
     link(rel='stylesheet' href='css/styles.css')
-    //- Temporarily uncomment in development to see the page's structural elements:
+    //- Un-comment the next line if you want to use jQuery
+    //- script(src='https://code.jquery.com/jquery-3.3.1.js')
+    //- Un-comment next two scripts & update client ID to enable Google AdSense.
+    //- script(async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
+    //- script
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "YOUR-CLIENT-ID",
+        enable_page_level_ads: true
+      });
+    //- (For Development Only) Un-comment the next line to reveal page structure:
     //- link(id='debug' rel='stylesheet' href='css/vendor/debug.css')
 
   body
